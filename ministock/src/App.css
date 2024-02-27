@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.card{
+    width: 30%;
+    height: 30rem;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+
+.card h1{
+    padding: 0.5rem;
+    border: #0077b5 2px solid;
+}
+
+
+.crouselsection{
+  font-size: 3rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #b50003;
+  border: #b50003 solid 0.2rem;
+  background: #b500031e;
+  padding: 0.3rem;
+  width: 28rem;
+  transition: ease 0.5s;
+
+}
+
+.crouselsection:hover{
+  background: #b50003;
+  width: 30rem;
+  color: white;
+}
+
+.transitionSection{
+  width: 25rem;
+  transition: ease 0.5s;
+}
+
+.transitionSection:hover{
+
+  background: #0077b5;
+  color: white;
+  
+  width: 30rem;
+}
+
+.transitionSectionSmall{
+  transition: ease 0.5s;
+  width: 20rem;
+
+}
+
+.transitionSectionSmall:hover{
+  width: 23rem;
+  color: white;
+  background:#0077b5;
+}
+
+.icon-label {
+  position: absolute;
+  bottom: -35px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  
+  background: #000000b6;
+  font-size:1rem;
+  width: 6rem;
+  padding: 1px;
+  color: white;
+  border-radius: 5%;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.icon-container:hover .icon-label {
+  
+  opacity: 1;
+}
